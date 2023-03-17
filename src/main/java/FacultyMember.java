@@ -17,10 +17,6 @@ public class FacultyMember extends User {
 
     }
 
-    public static void main(String[] args) {
-
-    }
-
     public String getDepartment() {
         return department;
     }

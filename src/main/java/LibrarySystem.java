@@ -39,8 +39,4 @@ public class LibrarySystem {
         lendings.remove(lending);
 
     }
-
-    public static void main(String[] args) {
-
-    }
 }

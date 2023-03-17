@@ -12,8 +12,4 @@ public class UserOrBookDoesNotExistException extends Exception {
     public UserOrBookDoesNotExistException(String message) {
         super(message);
     }
-
-    public static void main(String[] args) {
-
-    }
 }

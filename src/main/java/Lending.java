@@ -21,10 +21,6 @@ public class Lending {
         LocalDate.now().plusDays(30);
     }
 
-    public static void main(String[] args) {
-
-    }
-
     public Book getBook() {
         return book;
     }

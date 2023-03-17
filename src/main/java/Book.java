@@ -22,11 +22,6 @@ public class Book {
 
     }
 
-
-    public static void main(String[] args) {
-
-    }
-
     public List<Author> getAuthors() throws EmptyAuthorListException {
         if (authors == null) {
             throw new EmptyAuthorListException("No authors in the list");
