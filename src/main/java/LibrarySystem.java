@@ -29,7 +29,7 @@ public class LibrarySystem {
     }
 
     public void extendLending(FacultyMember facultyMember, Book book, LocalDate newDueDate) {
-        Lending lending = new Lending(book, facultyMember); //hmm
+        Lending lending = new Lending(book, facultyMember);
         lending.setDueDate(newDueDate);
         lendings.add(lending);
     }
